@@ -1,0 +1,21 @@
+#JUST WIRTE THE FOLLOWING CODE TO CHANGE THE SYNATAX FROM 2 TO 3 IDLE ENVIRONMENT
+
+
+#type this command in your shell
+
+
+
+2to3 -w script__name
+
+
+
+
+#AND THEN JUST RUN THE FILE
+
+
+
+python3 script-name
+
+
+
+
