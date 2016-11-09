@@ -75,6 +75,8 @@ fi
 [ -d sam_dir ] || mkdir sam_dir
 
 
+#Reduce Lambda Function Use
 
 
-
+b=reduce(lambda x,y: x if(x>y) else y,[11,75,89,8])
+print b
