@@ -1,0 +1,8 @@
+import webbrowser
+import requests,json
+a=input("enter the name \n")
+
+
+req=requests.get("https://api.genderize.io/?name=%s"%a)
+results=json.loads(req.text)
+print(results["gender"])
